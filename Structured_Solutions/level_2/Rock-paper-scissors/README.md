@@ -57,7 +57,7 @@ This code may not work as expected on Linux because it uses the `system()` funct
 
 ## Author
 
-This project was created by [Hicham Bourez]@Dragonkuro2.
+This project was created by [Hicham Bourezi].
 
 ## Acknowledgments
 
