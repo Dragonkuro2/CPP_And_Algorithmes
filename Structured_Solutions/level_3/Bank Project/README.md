@@ -1,6 +1,3 @@
-Here’s the updated README with an **Author** section added:
-
-```markdown
 # Bank Client Management System (CRUD)
 
 A console-based C++ application for managing bank clients. It allows users to perform CRUD operations (Create, Read, Update, Delete) and stores data in a text file using a delimiter.
