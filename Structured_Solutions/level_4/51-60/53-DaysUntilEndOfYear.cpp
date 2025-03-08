@@ -138,13 +138,8 @@ stDate IncreaseOneDay(stDate date) {
 }
 
 int DaysUntilTheEndOfWeek(stDate date) {
-	int counter = 0;
-	while (!IsItEndOfWeek(date)) {
-		counter++;
-		date = IncreaseOneDay(date);
-	}
-
-	return counter;
+	int dayOrder = GetDayOrder(date);
+	return (dayOrder == 0) ? 0 : (7 - dayOrder);
 }
 
 int DaysUntilTheEndOfMonth(stDate date) {
